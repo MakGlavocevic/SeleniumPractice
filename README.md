@@ -15,9 +15,13 @@ For more details on the test cases you can preview them here. (Link)
 # What have I used
 
 IntelliJ IDEA 2020.1.4 (Community Edition), Build #IC-201.8743.12, built on July 21, 2020
+
 Selenium Java Framework 3.141.59
+
 TestNG Framework 7.1.0.
+
 java.util Package
+
 
 
 
