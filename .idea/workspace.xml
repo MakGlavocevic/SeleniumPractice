@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="23fb7218-b1b6-41c7-8b55-9b79bcd471d3" name="Default Changelist" comment="" />
+    <list default="true" id="23fb7218-b1b6-41c7-8b55-9b79bcd471d3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UISeleniumpractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UISeleniumpractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/UISeleniumpractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/UISeleniumpractice.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +37,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../RestAssured" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mak\Desktop\Projects\Selenium\src\drivers" />
+    </key>
   </component>
   <component name="RunManager" selected="TestNG.UISeleniumpractice.Testcase03">
     <configuration name="UISeleniumpractice.Testcase01" type="TestNG" temporary="true" nameIsGenerated="true">
@@ -100,31 +114,43 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1595537666452">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1595537666452" />
-    <state width="1570" height="279" key="GridCell.Tab.0.bottom" timestamp="1595712358590">
+    <state width="765" height="278" key="GridCell.Tab.0.bottom" timestamp="1595970965081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1570" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595712358590" />
-    <state width="1570" height="279" key="GridCell.Tab.0.center" timestamp="1595712358590">
+    <state width="765" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595970965081" />
+    <state width="765" height="278" key="GridCell.Tab.0.center" timestamp="1595970965081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1570" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595712358590" />
-    <state width="1570" height="279" key="GridCell.Tab.0.left" timestamp="1595712358590">
+    <state width="765" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595970965081" />
+    <state width="765" height="278" key="GridCell.Tab.0.left" timestamp="1595970965081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1570" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595712358590" />
-    <state width="1570" height="279" key="GridCell.Tab.0.right" timestamp="1595712358590">
+    <state width="765" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595970965081" />
+    <state width="765" height="278" key="GridCell.Tab.0.right" timestamp="1595970965081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1570" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595712358590" />
-    <state x="523" y="208" key="Maven.ArtifactSearchDialog" timestamp="1595697223378">
+    <state width="765" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595970965081" />
+    <state x="523" y="208" key="Maven.ArtifactSearchDialog" timestamp="1595967364799">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="523" y="208" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595697223378" />
+    <state x="523" y="208" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595967364799" />
     <state x="188" y="192" key="SettingsEditor" timestamp="1594072696484">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

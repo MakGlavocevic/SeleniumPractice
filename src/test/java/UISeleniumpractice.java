@@ -21,7 +21,8 @@ public class UISeleniumpractice {
 
     @BeforeMethod
     public void testSetup() throws Exception {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Mak\\Desktop\\Projects\\Selenium\\chromedriver.exe");
+
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Mak\\Desktop\\Projects\\Selenium\\src\\resources\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("http://automationpractice.com/index.php");
         Thread.sleep(2000);
@@ -51,6 +52,9 @@ password.sendKeys("!Qwerty123");
 driver.findElement(By.xpath("//button[@id='SubmitLogin']"))
         .click();
 
+boolean username = driver.findElement(By.xpath("//span[contains(text(),'Test Selenium')]")).isDisplayed();
+Assert.assertTrue(username);
+
 driver.findElement(By.xpath("//i[@class='icon-user']"))
         .click();
 
@@ -75,7 +79,6 @@ boolean exists = driver.findElement(By.xpath("//a[@class='login']"))
         .isDisplayed();
 
 Assert.assertTrue(exists, "Successfully signed out.");
-
 
     }
 
@@ -192,29 +195,18 @@ Assert.assertTrue(exists, "Successfully signed out.");
 
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    private String getSaltString() {
-        String SALTCHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
-        StringBuilder salt = new StringBuilder();
+    private String getrandomchar(int charnumber) {
+        String chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
+        StringBuilder rng = new StringBuilder();
         Random rnd = new Random();
-        while (salt.length() < 10) {
-            int index = (int) (rnd.nextFloat() * SALTCHARS.length());
-            salt.append(SALTCHARS.charAt(index));
+        while (rng.length() < charnumber) {
+            int index = (int) (rnd.nextFloat() * chars.length());
+            rng.append(chars.charAt(index));
         }
-        String saltStr = salt.toString();
-        return saltStr;
+        String grc = rng.toString();
+        return grc;
     }
 
-    private String getSaltString2() {
-        String SALTCHARS2 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
-        StringBuilder salt = new StringBuilder();
-        Random rnd = new Random();
-        while (salt.length() < 5) {
-            int index = (int) (rnd.nextFloat() * SALTCHARS2.length());
-            salt.append(SALTCHARS2.charAt(index));
-        }
-        String saltStr2 = salt.toString();
-        return saltStr2;
-    }
 
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -268,10 +260,10 @@ Assert.assertTrue(exists, "Successfully signed out.");
 
         WebElement register = driver.findElement(By.xpath("//form[@id='create-account_form']//span[1]"));
 
-        Assert.assertEquals(true, register.isDisplayed());
+        Assert.assertTrue(register.isDisplayed());
 
         driver.findElement(By.xpath("//input[@id='email_create']"))
-                .sendKeys(getSaltString() + "@testemail.com");
+                .sendKeys(getrandomchar(10) + "@testemail.com");
 
         driver.findElement(By.xpath("//form[@id='create-account_form']//span[1]"))
                 .click();
@@ -286,7 +278,7 @@ Assert.assertTrue(exists, "Successfully signed out.");
                 .sendKeys("Doe");
 
         driver.findElement(By.xpath("//input[@id='passwd']"))
-                .sendKeys(getSaltString2());
+                .sendKeys(getrandomchar(10));
 
         List<WebElement> calendarDay = driver.findElements(By.cssSelector("select#days>option"));
         calendarDay.get(getRandomNumberInBetween(1, calendarDay.size() - 1)).click();
