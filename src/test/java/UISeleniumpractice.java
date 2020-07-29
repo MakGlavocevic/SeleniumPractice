@@ -22,7 +22,11 @@ public class UISeleniumpractice {
     @BeforeMethod
     public void testSetup() throws Exception {
 
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Mak\\Desktop\\Projects\\Selenium\\src\\resources\\chromedriver.exe");
+
+        String path = System.getProperty("user.dir");
+        System.out.println(path);
+        System.setProperty("webdriver.chrome.driver",path+"\\src\\test\\resources\\chromedriver.exe");
+
         driver = new ChromeDriver();
         driver.get("http://automationpractice.com/index.php");
         Thread.sleep(2000);
@@ -86,7 +90,7 @@ Assert.assertTrue(exists, "Successfully signed out.");
 
     private static int getRandomNumberInBetween(int lowerBound, int upperBound) {
         Random r = new Random();
-        return (r.nextInt(upperBound) + lowerBound);
+        return Math.abs (r.nextInt(upperBound) + lowerBound);
     }
 
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -278,7 +282,7 @@ Assert.assertTrue(exists, "Successfully signed out.");
                 .sendKeys("Doe");
 
         driver.findElement(By.xpath("//input[@id='passwd']"))
-                .sendKeys(getrandomchar(10));
+                .sendKeys(getrandomchar(5));
 
         List<WebElement> calendarDay = driver.findElements(By.cssSelector("select#days>option"));
         calendarDay.get(getRandomNumberInBetween(1, calendarDay.size() - 1)).click();
@@ -307,8 +311,8 @@ Assert.assertTrue(exists, "Successfully signed out.");
         driver.findElement(By.xpath("//input[@id='city']"))
                 .sendKeys("Test City");
 
-        List<WebElement> randomState = driver.findElements(By.cssSelector("select#id_state>option"));
-        randomState.get(getRandomNumberInBetween(1, randomState.size() - 1)).click();
+        List<WebElement> randomState = driver.findElements(By.cssSelector("select#id_state option"));
+        randomState.get(getRandomNumberInBetween (1, (randomState.size() - 1))).click();
 
         driver.findElement(By.xpath("//input[@id='postcode']"))
                 .sendKeys("12345");

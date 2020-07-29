@@ -7,7 +7,7 @@
   <component name="ChangeListManager">
     <list default="true" id="23fb7218-b1b6-41c7-8b55-9b79bcd471d3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/UISeleniumpractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UISeleniumpractice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/UISeleniumpractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/UISeleniumpractice.class" afterDir="false" />
     </list>
@@ -40,10 +40,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mak\Desktop\Projects\Selenium\src\test" />
       <recent name="C:\Users\Mak\Desktop\Projects\Selenium\src\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.UISeleniumpractice.Testcase03">
+  <component name="RunManager" selected="TestNG.UISeleniumpractice.Testcase01">
     <configuration name="UISeleniumpractice.Testcase01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumExercise" />
       <option name="PACKAGE_NAME" value="" />
@@ -94,8 +95,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.UISeleniumpractice.Testcase03" />
         <item itemvalue="TestNG.UISeleniumpractice.Testcase01" />
+        <item itemvalue="TestNG.UISeleniumpractice.Testcase03" />
         <item itemvalue="TestNG.UISeleniumpractice.Testcase02" />
         <item itemvalue="TestNG.UISeleniumpractice.Websitepractice" />
       </list>
@@ -131,22 +132,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1595537666452" />
-    <state width="765" height="278" key="GridCell.Tab.0.bottom" timestamp="1595970965081">
+    <state width="1567" height="275" key="GridCell.Tab.0.bottom" timestamp="1596041727678">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="765" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595970965081" />
-    <state width="765" height="278" key="GridCell.Tab.0.center" timestamp="1595970965081">
+    <state width="1567" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596041727678" />
+    <state width="1567" height="275" key="GridCell.Tab.0.center" timestamp="1596041727678">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="765" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595970965081" />
-    <state width="765" height="278" key="GridCell.Tab.0.left" timestamp="1595970965081">
+    <state width="1567" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596041727678" />
+    <state width="1567" height="275" key="GridCell.Tab.0.left" timestamp="1596041727678">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="765" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595970965081" />
-    <state width="765" height="278" key="GridCell.Tab.0.right" timestamp="1595970965081">
+    <state width="1567" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596041727678" />
+    <state width="1567" height="275" key="GridCell.Tab.0.right" timestamp="1596041727678">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="765" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595970965081" />
+    <state width="1567" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596041727678" />
     <state x="523" y="208" key="Maven.ArtifactSearchDialog" timestamp="1595967364799">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
