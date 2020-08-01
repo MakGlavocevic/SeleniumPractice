@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -90,7 +91,7 @@ Assert.assertTrue(exists, "Successfully signed out.");
 
     private static int getRandomNumberInBetween(int lowerBound, int upperBound) {
         Random r = new Random();
-        return Math.abs (r.nextInt(upperBound) + lowerBound);
+        return (r.nextInt(upperBound) + lowerBound);
     }
 
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -311,8 +312,8 @@ Assert.assertTrue(exists, "Successfully signed out.");
         driver.findElement(By.xpath("//input[@id='city']"))
                 .sendKeys("Test City");
 
-        List<WebElement> randomState = driver.findElements(By.cssSelector("select#id_state option"));
-        randomState.get(getRandomNumberInBetween (1, (randomState.size() - 1))).click();
+        Select dropdown = new Select(driver.findElement(By.xpath("//select[@id='id_state']")));
+        dropdown.selectByValue(("32"));
 
         driver.findElement(By.xpath("//input[@id='postcode']"))
                 .sendKeys("12345");
