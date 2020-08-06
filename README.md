@@ -1,12 +1,10 @@
 # SeleniumPractice
---------------------------------------
 
 Just a practice that I did where I automated several test cases for the site automationpractice.com using Selenium and TestNG frameworks.
 
-
+--------------------------------------
 
 # The Test Cases
---------------------------------------
 
 I made several test cases where I used real user flow scenarios. 
 
@@ -18,8 +16,9 @@ Third test case revolves around an unregistered user wanting to buy an item, goi
 
 For more details on the test cases you can preview them here. (https://docs.google.com/spreadsheets/d/1FK641ZtHElLDe1eXz8zUXBSUJ44gXHFm2N3tz0Vyypg/edit?usp=sharing)
 
-# What have I used
 --------------------------------------
+
+# What have I used
 
 Java 1.8
 
@@ -31,8 +30,9 @@ TestNG Framework 7.1.0.
 
 java.util Package
 
-## How to run
 --------------------------------------
+
+## How to run
 
 Java 1.8
 
