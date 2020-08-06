@@ -350,5 +350,56 @@ Assert.assertTrue(exists, "Successfully signed out.");
 
     }
 
+    @Test
+    public void TestCase04(){
+
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+
+        driver.findElement(By.xpath("//a[@class='login']"))
+                .click();
+
+        driver.findElement(By.xpath("//input[@id='email']"))
+                .sendKeys("testautomationselenium2020@gmail.com");
+
+        driver.findElement(By.xpath("//input[@id='passwd']"))
+                .sendKeys("!Qwerty123");
+
+        driver.findElement(By.xpath("//div[@id='contact-link']//a[contains(text(),'Contact us')]"))
+                .click();
+
+        Select dropdown = new Select(driver.findElement(By.xpath("//select[@id='id_contact']")));
+        dropdown.selectByValue(("2"));
+
+        driver.findElement(By.xpath(" //input[@id='email']"))
+                .sendKeys("testautomationselenium2020@gmail.com");
+
+        driver.findElement(By.xpath("//input[@id='id_order']"))
+                .sendKeys(getrandomchar(10));
+
+        driver.findElement(By.xpath("//textarea[@id='message']"))
+                .sendKeys(getrandomchar(1000));
+
+        driver.findElement(By.xpath("//span[contains(text(),'Send')]"))
+                .click();
+
+        boolean messageSend = driver.findElement(By.xpath("//p[@class='alert alert-success']"))
+                .isDisplayed();
+
+        Assert.assertTrue(messageSend);
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
