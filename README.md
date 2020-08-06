@@ -10,9 +10,10 @@ Second test case focus on the user being able to select and item from the shop a
 
 Third test case revolves around an unregistered user wanting to buy an item, going throu the registration process and completing his order at the end. 
 
-For more details on the test cases you can preview them here. (Link)
+For more details on the test cases you can preview them here. (https://docs.google.com/spreadsheets/d/1FK641ZtHElLDe1eXz8zUXBSUJ44gXHFm2N3tz0Vyypg/edit?usp=sharing)
 
 # What have I used
+Java 1.8
 
 IntelliJ IDEA 2020.1.4 (Community Edition), Build #IC-201.8743.12, built on July 21, 2020
 
